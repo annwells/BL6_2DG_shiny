@@ -1,0 +1,13 @@
+name: B6_2DG_shiny
+title: B6_2DG_shiny
+username:
+account: annwells
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8755006
+bundleId: 7044478
+url: https://annwells.shinyapps.io/B6_2DG_shiny/
+when: 1680552519.76243
+lastSyncTime: 1680552519.76245
+asMultiple: FALSE
+asStatic: FALSE
