@@ -32,7 +32,10 @@ var.opts <- colnames(BL6_2DG[,-c(17334:17335)])
     axis.line = element_line(colour = 'gray', size = .75),
     panel.background = element_blank(),
     plot.background = element_blank(),
-    axis.text.x = element_text(angle = 90, hjust = 1)
+    axis.text.x = element_text(angle = 90, hjust = 1, size = 16),
+        axis.title.y = element_text(size = 16), 
+        legend.text = element_text(size = 12),
+        legend.title = element_text(size = 14)
 )
 
 # Define UI for application

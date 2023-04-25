@@ -5,9 +5,9 @@ account: annwells
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8755006
-bundleId: 7044478
+bundleId: 7133218
 url: https://annwells.shinyapps.io/B6_2DG_shiny/
-when: 1680552519.76243
-lastSyncTime: 1680552519.76245
+when: 1682432376.89994
+lastSyncTime: 1682432376.89995
 asMultiple: FALSE
 asStatic: FALSE
