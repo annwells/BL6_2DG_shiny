@@ -33,10 +33,11 @@ var.opts <- colnames(BL6_2DG[,-c(17334:17335)])
     panel.background = element_blank(),
     plot.background = element_blank(),
     axis.text.x = element_text(angle = 90, hjust = 1, size = 16),
-        axis.title.y = element_text(size = 16), 
+        axis.title.y = element_text(size = 16, face = "bold"), 
         legend.text = element_text(size = 12),
-        legend.title = element_text(size = 14)
+        legend.title = element_text(size = 14, face = "bold")
 )
+
 
 # Define UI for application
 ui <- fluidPage(
@@ -63,6 +64,7 @@ ui <- fluidPage(
             h3(textOutput("caption")),
             #h3(htmlOutput("caption")),
             uiOutput("plot") # depends on input
+            
         )
     )
 )
@@ -70,7 +72,7 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
-    
+
     #variables based on the data
     # observe({
     #     
@@ -218,6 +220,7 @@ server <- function(input, output, session) {
         )  +
             .theme
         print(p)
+        
     })
     
 }
